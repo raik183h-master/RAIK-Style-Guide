@@ -49,10 +49,6 @@ Checkstyle configuration that checks the Google coding conventions from Google J
       <property name="option" value="alone"/>
       <property name="tokens" value="CLASS_DEF, METHOD_DEF, CTOR_DEF, LITERAL_FOR, LITERAL_WHILE, STATIC_INIT,                     INSTANCE_INIT, ANNOTATION_DEF, ENUM_DEF, INTERFACE_DEF, RECORD_DEF,                     COMPACT_CTOR_DEF"/>
     </module>
-    <module name="SuppressionXpathSingleFilter">
-      <property name="id" value="RightCurlyAlone"/>
-      <property name="query" value="//RCURLY[parent::SLIST[count(./*)=1]                                      or preceding-sibling::*[last()][self::LCURLY]]"/>
-    </module>
     <module name="WhitespaceAfter">
       <property name="tokens" value="COMMA, SEMI, TYPECAST, LITERAL_IF, LITERAL_ELSE,                     LITERAL_WHILE, LITERAL_DO, LITERAL_FOR, DO_WHILE"/>
     </module>
