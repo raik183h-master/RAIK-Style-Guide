@@ -237,7 +237,9 @@ Checkstyle configuration that checks the Google coding conventions from Google J
     <module name="SimplifyBooleanExpression"/>
     <module name="DeclarationOrder"/>
     <module name="MagicNumber"/>
-    <module name="MultipleStringLiterals"/>
+    <module name="MultipleStringLiterals">
+      <property name="ignoreStringsRegexp" value='^(?:.){0,3}$'/>
+    </module>
     <module name="StringLiteralEquality"/>
     <module name="EqualsAvoidNull"/>
     <module name="BooleanExpressionComplexity"/>
