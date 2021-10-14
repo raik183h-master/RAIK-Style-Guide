@@ -238,7 +238,7 @@ Checkstyle configuration that checks the Google coding conventions from Google J
     <module name="RequireThis">
       <property name="checkFields" value="true"/>
       <property name="checkMethods" value="false"/>
-      <property name="validateOnlyOverlapping" value="false"/>
+      <property name="validateOnlyOverlapping" value="true"/>
     </module>
     <module name="AvoidInlineConditionals"/>
     <module name="SimplifyBooleanExpression"/>
