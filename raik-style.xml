@@ -233,8 +233,9 @@ Checkstyle configuration that checks the Google coding conventions from Google J
     </module>
     <module name="TypecastParenPad"/>
     <module name="RequireThis">
-       <property name="validateOnlyOverlapping" value="false"/>
-     </module>
+      <property name="checkFields" value="false"/>
+      <property name="validateOnlyOverlapping" value="false"/>
+    </module>
     <module name="AvoidInlineConditionals"/>
     <module name="SimplifyBooleanExpression"/>
     <module name="DeclarationOrder"/>
