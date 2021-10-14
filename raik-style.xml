@@ -65,6 +65,9 @@ Checkstyle configuration that checks the Google coding conventions from Google J
     </module>
     <module name="OneStatementPerLine"/>
     <module name="MultipleVariableDeclarations"/>
+    <module name="LocalFinalVariableName">
+      <property name="format" value="^[A-Z][A-Z0-9\_]*$"/>
+    </module>
     <module name="ArrayTypeStyle"/>
     <module name="MissingSwitchDefault"/>
     <module name="FallThrough"/>
