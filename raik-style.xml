@@ -243,7 +243,7 @@ Checkstyle configuration that checks the Google coding conventions from Google J
     <module name="SimplifyBooleanExpression"/>
     <module name="DeclarationOrder"/>
     <module name="MagicNumber">
-       <property name="ignoreNumbers" value="0, 1, 2"/>
+       <property name="ignoreNumbers" value="0, 1, 2, -1"/>
        <property name="ignoreFieldDeclaration" value="true"/>
        <property name="ignoreAnnotation" value="true"/>
      </module>
