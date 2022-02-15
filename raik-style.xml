@@ -202,22 +202,20 @@ Checkstyle configuration that checks the Google coding conventions from Google J
     </module>
     <module name="JavadocMethod">
       <property name="allowedAnnotations" value="Override, Test"/>
-      <property name="accessModifiers" value="public"/>
-      <property name="allowMissingParamTags" value="true"/>
-      <property name="allowMissingReturnTag" value="true"/>
+      <property name="accessModifiers" value="private"/>
       <property name="tokens" value="METHOD_DEF, CTOR_DEF, ANNOTATION_FIELD_DEF, COMPACT_CTOR_DEF"/>
     </module>
     <module name="MissingJavadocMethod">
-      <property name="minLineCount" value="2"/>
+      <property name="scope" value="private"/>
+      <property name="excludeScope" value="nothing"/>
       <property name="allowedAnnotations" value="Override, Test"/>
       <property name="allowMissingPropertyJavadoc" value="false"/>
-      <property name="scope" value="private"/>
-      <property name="tokens" value="METHOD_DEF, CTOR_DEF, ANNOTATION_FIELD_DEF,                                    COMPACT_CTOR_DEF"/>
+      <property name="tokens" value="METHOD_DEF, CTOR_DEF, ANNOTATION_FIELD_DEF,COMPACT_CTOR_DEF"/>
     </module>
     <module name="MissingJavadocType">
       <property name="scope" value="protected"/>
       <property name="excludeScope" value="nothing"/>
-      <property name="tokens" value="CLASS_DEF, INTERFACE_DEF, ENUM_DEF,                       RECORD_DEF, ANNOTATION_DEF"/>
+      <property name="tokens" value="CLASS_DEF, INTERFACE_DEF, ENUM_DEF, RECORD_DEF, ANNOTATION_DEF"/>
     </module>
     <module name="MethodName">
       <property name="format" value="^[a-z][a-zA-Z0-9]*$"/>
