@@ -211,6 +211,7 @@ Checkstyle configuration that checks the Google coding conventions from Google J
       <property name="minLineCount" value="2"/>
       <property name="allowedAnnotations" value="Override, Test"/>
       <property name="allowMissingPropertyJavadoc" value="false"/>
+      <property name="scope" value="private"/>
       <property name="tokens" value="METHOD_DEF, CTOR_DEF, ANNOTATION_FIELD_DEF,                                    COMPACT_CTOR_DEF"/>
     </module>
     <module name="MissingJavadocType">
@@ -267,4 +268,10 @@ Checkstyle configuration that checks the Google coding conventions from Google J
     <property name="max" value="120"/>
   </module>
   <module name="NewlineAtEndOfFile"/>
+  <module name="RegexpSingleline">
+		<property name="format" value="^\s*\*\s*@author" />
+		<property name="minimum" value="0" />
+		<property name="maximum" value="0" />
+		<property name="message" value="Javadoc has illegal ''author'' tag." />
+	</module>
 </module>
