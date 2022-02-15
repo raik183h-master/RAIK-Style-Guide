@@ -208,7 +208,7 @@ Checkstyle configuration that checks the Google coding conventions from Google J
     <module name="MissingJavadocMethod">
       <property name="scope" value="private"/>
       <property name="excludeScope" value="nothing"/>
-      <property name="minLineCount" value="0"/>
+      <property name="minLineCount" value="-1"/>
       <property name="allowedAnnotations" value="Override, Test"/>
       <property name="allowMissingPropertyJavadoc" value="false"/>
       <property name="tokens" value="METHOD_DEF, CTOR_DEF, ANNOTATION_FIELD_DEF,COMPACT_CTOR_DEF"/>
