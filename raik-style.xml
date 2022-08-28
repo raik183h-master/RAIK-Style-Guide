@@ -162,7 +162,6 @@ Checkstyle configuration that checks the Google coding conventions from Google J
       <message key="ws.illegalFollow" value="GenericWhitespace ''{0}'' should followed by whitespace."/>
     </module>
     <module name="OverloadMethodsDeclarationOrder"/>
-    <module name="VariableDeclarationUsageDistance"/>
     <module name="CustomImportOrder">
       <property name="customImportOrderRules" value="STATIC###THIRD_PARTY_PACKAGE"/>
       <property name="sortImportsInGroupAlphabetically" value="true"/>
