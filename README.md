@@ -1,24 +1,24 @@
-## RAIK 183H/184H Style Guide Setup
+# RAIK 183H/184H Style Guide Setup
 
-Hello! Welcome to the tutorial explaining the setup process for Checkstyle in Visual Studio Code (VSCode) or Cursor. The following tutorial will work for either code editor because Cursor is a fork of VSCode! **We will refer to VSCode in this tutorial, but you can think of them interchangebly.**
+Hello! The following information explains the setup process for Checkstyle in Visual Studio Code (VSCode) or Cursor. The following tutorial will work for either code editor because Cursor is a fork of VSCode! **We will refer to VSCode in this tutorial, but you can think of them interchangebly.**
 
-### Prerequisites:
+## Prerequisites:
 
 1. Ensure you have the Java Extension Pack installed in VSCode
 
-### Step 1: VSCode editor settings
+## Step 1: VSCode editor settings
 
 1. Navigate to VSCode settings via the user interface or by pressing Control + Comma (Command + Comma on MacOS)
 2. In the search bar, search for `editor.insertSpaces`. Check the box if it isn't already.
 3. In the search bar, search for `editor.tabSize`. Enter "4" in the text box.
 
-### Step 2: Import the `Checkstyle for Java` Extension
+## Step 2: Import the `Checkstyle for Java` Extension
 
-#### If you are using VSCode:
+### If you are using VSCode:
 
 1. Search the "Checkstyle for Java" extension and install it.
 
-#### If you are using Cursor:
+### If you are using Cursor:
 
 1. In the files of this repository, look for the `CheckstyleForJava.vsix`.
 2. Open Cursor and open the Extensions panel.
@@ -26,7 +26,7 @@ Hello! Welcome to the tutorial explaining the setup process for Checkstyle in Vi
 
 - Although Cursor is a fork of VSCode, it does not automatically expose all of the extensions that are available on VSCode. Thus, we must manually import the extension as we just did!
 
-### Step 3: Configure the `Checkstyle for Java` Extension
+## Step 3: Configure the `Checkstyle for Java` Extension
 
 1. Go back to the VSCode settings we opened earlier.
 2. In the search bar, search for `checkstyle.configuration`. Enter this link into the text box:
@@ -37,7 +37,7 @@ https://raw.githubusercontent.com/raik183h-master/RAIK-Style-Guide/refs/heads/ma
 
 - Checkstyle will now automatically grab the raw XML file from that link and use it for linting your Java code!
 
-### Step 4: Configure Java Formatting
+## Step 4: Configure Java Formatting
 
 1. In the settings search bar, search for `java.format.settings.url`. Enter this link into the text box:
 
