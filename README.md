@@ -27,13 +27,22 @@ Hello! Welcome to the tutorial explaining the setup process for Checkstyle in Vi
 ### Step 3: Configure the `Checkstyle for Java` Extension
 
 1. Go back to the VSCode settings we opened earlier.
-2. In the search bar, search for `checkstyle.configuration`. Enter this link into the text box: `https://raw.githubusercontent.com/raik183h-master/RAIK-Style-Guide/refs/heads/main/raik-style.xml`
+2. In the search bar, search for `checkstyle.configuration`. Enter this link into the text box:
+
+```
+https://raw.githubusercontent.com/raik183h-master/RAIK-Style-Guide/refs/heads/main/raik-style.xml
+```
 
 - Checkstyle will now automatically grab the raw XML file from that link and use it for linting your Java code!
 
 ### Step 4: Configure Java Formatting
 
-1. In the settings search bar, search for `java.format.settings.url`. Enter this link into the text box: `https://raw.githubusercontent.com/raik183h-master/RAIK-Style-Guide/refs/heads/main/raik-style-formatter.xml`
+1. In the settings search bar, search for `java.format.settings.url`. Enter this link into the text box:
+
+```
+https://raw.githubusercontent.com/raik183h-master/RAIK-Style-Guide/refs/heads/main/raik-style-formatter.xml
+```
+
 2. Now, when you save your Java code, it should automatically format according to the rules defined in that raw file.
 
 ## Using Checkstyle to find your linter errors
