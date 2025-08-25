@@ -14,15 +14,17 @@ Hello! Welcome to the tutorial explaining the setup process for Checkstyle in Vi
 
 ### Step 2: Import the `Checkstyle for Java` Extension
 
-#### If you are on VSCode:
+#### If you are using VSCode:
 
 1. Search the "Checkstyle for Java" extension and install it.
 
-#### If you are on Cursor:
+#### If you are using Cursor:
 
 1. In the files of this repository, look for the `CheckstyleForJava.vsix`.
-2. Open VSCode and open the Extensions panel.
+2. Open Cursor and open the Extensions panel.
 3. Drag and drop the `CheckstyleForJava.vsix` file into the Extensions panel and install the extension.
+
+- Although Cursor is a fork of VSCode, it does not automatically expose all of the extensions that are available on VSCode. Thus, we must manually import the extension as we just did!
 
 ### Step 3: Configure the `Checkstyle for Java` Extension
 
